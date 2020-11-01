@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#level1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 60px; */
+    background-color: #4897af73;
+}
+
+.left-menu {
+    display: flex;
+    align-items: center;
+}
+
+.left-menu img {
+    height: 75px;
+    width: 128px;
+    margin: 5px;
+}
+
+.left-menu .text {
+    margin: 5px;
+    padding: 10px 11px;
+    font-size: 1.2rem;
+    height: 10px;
+    width: 358px;
+}
+
+.right-menu {
+    height: 75px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 81%;
+}
+
+.btn1 {
+    margin: 10px 8px;
+    padding: 7px 25px;
+    border: 2px solid black;
+    border-radius: 21px;
+    background-color: black;
+    color: cornsilk;
+}
+
+.right-menu button:hover {
+    background-color: rgb(255, 248, 220);
+    color: black;
+}
+
+
+/* Navigation */
+
+#level2 #navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+#level2 #navbar::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+#level2 #navbar ul {
+    display: flex;
+    margin-top: 15px;
+}
+
+#level2 #navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 8px 10px;
+}
+
+#level2 #navbar ul li a {
+    text-decoration: none;
+    padding: 8px 15px;
+    float: right;
+    color: white;
+}
+
+#current {
+    background-color: rgb(74 180 155);
+}
+
+.currAcc img {
+    margin-left: 70%;
+    height: 200px;
+    width: 357px;
+    margin-top: -145px;
+}
+
+.currAcc h1 {
+    font-family: 'Shadows Into Light Two', cursive;
+    margin: 0px 85px;
+    font-size: 3rem;
+    padding-top: 40px;
+}
+
+.currAcc span {
+    font-family: 'Itim', cursive;
+    font-family: 'Shadows Into Light Two', cursive;
+    margin-left: 50px;
+    font-size: 2rem;
+}
+
+#heading {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(20 20 95);
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+#features .fea {
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 20px;
+}
+
+#features .short {
+    width: 30%;
+    height: inherit;
+    margin: 10px 10px;
+    padding: 10px 54px;
+    text-align: center;
+}
+
+.short img {
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+
+#eligibility {
+    background-color: aquamarine;
+}
+
+.eligible p,
+.eligible ul {
+    display: block;
+    margin: auto;
+    width: 70%;
+    padding: 15px;
+}
+
+#contact {
+    background-color: rgb(95, 89, 89);
+    /* opacity: 0.8; */
+    color: white;
+}
+
+#contact h1 {
+    text-align: center;
+}
+
+.foot {
+    display: flex;
+}
+
+.foot #contactUs {
+    height: inherit;
+    width: 35%;
+    margin: 5px 15px;
+    padding: 15px 15px;
+    /* border: 2px solid red; */
+}
