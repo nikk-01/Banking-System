@@ -96,7 +96,7 @@
     color: white;
 }
 
-.sec1::before {
+.sec1 {
     content: "";
     position: absolute;
     top: 145px;
@@ -127,7 +127,7 @@
     margin: 3px 2px;
 }
 
-.back::before {
+.back{
     content: "";
     position: absolute;
     top: 1086px;
